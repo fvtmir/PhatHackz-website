@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home~</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #1e1e1e;
+            color: #ffffff;
+            font-family: "Courier New", monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #1e1e1e;
+        }
+        .terminal {
+            background: #000;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+            width: 60%;
+            max-width: 800px;
+            padding: 15px;
+            position: relative;
+        }
+        .terminal-header {
+            display: flex;
+            align-items: center;
+            background: #333;
+            padding: 5px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .terminal-buttons {
+            display: flex;
+            gap: 5px;
+        }
+        .terminal-button {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .close { background: #ff5f56; }
+        .minimize { background: #ffbd2e; }
+        .maximize { background: #27c93f; }
+        .prompt {
+            font-family: 'Share Tech Mono', monospace;
+            color: #00ff00;
+            font-weight: bold;
+        }
+        .command {
+            color: #ffffff;
+            font-family: "Courier New", monospace;
+        }
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="terminal">
+        <div class="terminal-header">
+            <div class="terminal-buttons">
+                <span class="terminal-button close"></span>
+                <span class="terminal-button minimize"></span>
+                <span class="terminal-button maximize"></span>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>/home/phathackz</b>
+            </div>
+        </div>
+        <p><span class="prompt">root@phathackz:~$</span> <span class="command"><b>whoami</b></span></p>
+        <div>Fatmir Neziraj</div>
+        <div><i>A user of many trades</i></div>
+
+        <p><span class="prompt">root@phathackz:~$</span> <span class="command"><b>cat projects.txt</b></span></p>
+            <div><b>Current projects:  </b>   
+            <div><a href="Digital_integritet.pdf">> Digital Integritet [PDF]</a></div>
+            <div><a href="https://discord.gg">> Discord Community</a></div>
+            <br>            
+            <div><b>In development:</b>
+            <div>> Project: FOSS Identity Manager</a></div>
+            <br>
+            <div><b>Past projects:</b>
+            <div><a href="https://www.meetup.com">> HackTheBox Stockholm Meetup</a></div>
+        <p><span class="prompt">root@phathackz:~$</span> <span class="command"><b>ping phatmir</b></span></p>
+           PING reply:
+           <div>LinkedIn: Fatmir Neziraj</div>
+           <div>Discord: .mirasol</div>
+           <div>E-mail: ping@phathackz.se</div>
+    </div>
+</body>
+</html>
