@@ -1,0 +1,1 @@
+A kinda static website.
